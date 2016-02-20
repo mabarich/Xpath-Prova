@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Uscite Manga.exe" version="1.0.0.0" publicKeyToken="58843a9409a04493" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="dying_will_flame__sky_by_miha_hime-d65ynjq.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Uscite Manga" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Uscite Manga.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Opzioni manifesto Controllo account utente
+            Se si desidera modificare il livello di Controllo account utente di Windows, sostituire il 
+            nodo requestedExecutionLevel con uno dei seguenti.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Se si specifica il nodo requestedExecutionLevel, la virtualizzazione dei file system e del Registro di sistema verrà disabilitata.
+            Se si desidera utilizzare la virtualizzazione dei file e del Registro di sistema per la 
+            compatibilità con le versioni precedenti, eliminare il nodo requestedExecutionLevel.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HtmlAgilityPack.dll" size="135168">
+      <assemblyIdentity name="HtmlAgilityPack" version="1.4.9.0" publicKeyToken="BD319B19EAF3B43A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>nkM7xHsbQoaGzVFZ4DuMu0ymG5A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Uscite Manga.exe" size="780800">
+      <assemblyIdentity name="Uscite Manga" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Qq0o+Pu5H+ZMeRnHdDEo2pw0F1Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="dying_will_flame__sky_by_miha_hime-d65ynjq.ico" size="370070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>TXtpRGSs7aDnoB+UHXnlXL/ls2s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Uscite Manga.exe.config" size="532">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>N4mPZCM3BRSjIJqFpWEc4hyTYsA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Elenco di tutte le versioni di Windows con cui è possibile utilizzare l'applicazione. 
+     L'ambiente maggiormente compatibile verrà scelto automaticamente.-->
+      <!-- Se l'applicazione è progettata per l'uso con Windows Vista, rimuovere il commento dal seguente nodo supportedOS-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- Se l'applicazione è progettata per l'uso con Windows 7, rimuovere il commento dal seguente nodo supportedOS-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- Se l'applicazione è progettata per l'uso con Windows 8, rimuovere il commento dal seguente nodo supportedOS-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+      <!-- Se l'applicazione è progettata per l'uso con Windows 8.1, rimuovere il commento dal seguente nodo supportedOS-->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Marco-PC\Marco" issuerKeyHash="4113fb30459422963f28047a6890d8e86fadcd27" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RtFYZH+9XWzNtVHsUHI/HGFNCYgAW+g9F2jPNA3S0kI=</DigestValue></Reference></SignedInfo><SignatureValue>D4I29bMzQwQyqKcZq9cnWWoG1MeLhblQQPxMPIULcxK8qZk6qEIF3CShNrYkbtN6YZzFqh44OX+2/SR9w4oSc1iKmNvXpQ+U8P1G1rfm/yUrdoGHR91jN76A/o+CUbaig9bqg9w+FkKKUPanP5pS1Hf8mMifR5+OfOVhUqIT6pU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oKspH5QYjbgsYmn1toYNBGNuuIgZkuvGZ0Qp5ih75lZAV+1L1rbDm0KiKkD49JLmjwGjEajcJPpLHeQmUGKPIG/hGMKTXjMVphNWqExm8xoZ8bku/KlLdXNsTgw2CpoNDIP9LIhpaPAVcLMvwWELT6LMaB6eHSQjCgvKfxpEb9k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="42d2d20d34cf68173de85b0088094d611c3f7250ec51b5cd6c5dbd7f6458d146" Description="" Url=""><as:assemblyIdentity name="Uscite Manga.exe" version="1.0.0.0" publicKeyToken="58843a9409a04493" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Marco-PC\Marco</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>00qQwAtsATbxp/8UDrh6TCuc59fjQD04mdKkEU7K3MA=</DigestValue></Reference></SignedInfo><SignatureValue>Lkg1G42QXnQLfmhesMckzBfYYjdYPgRzmROfFNdj2RZDh/viMhNUvdNVPmUZYNSRLRrTahPNuygkUiSZ2BbH4+O0tqLb80RczMjY+004t5Znrn5rnctd9J+RvTpkOVtEI6H7NLzF9+aN1TrL46IrcQ/KAVLuOz+Yi6z0vDivALM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oKspH5QYjbgsYmn1toYNBGNuuIgZkuvGZ0Qp5ih75lZAV+1L1rbDm0KiKkD49JLmjwGjEajcJPpLHeQmUGKPIG/hGMKTXjMVphNWqExm8xoZ8bku/KlLdXNsTgw2CpoNDIP9LIhpaPAVcLMvwWELT6LMaB6eHSQjCgvKfxpEb9k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQNsT1wwIYZY5BWitlUbTSdTANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwATQBhAHIAYwBvAC0AUABDAFwATQBhAHIAYwBvMB4XDTE1MDEwMjExMDczNFoXDTE2MDEwMjE3MDczNFowJzElMCMGA1UEAx4cAE0AYQByAGMAbwAtAFAAQwBcAE0AYQByAGMAbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAoKspH5QYjbgsYmn1toYNBGNuuIgZkuvGZ0Qp5ih75lZAV+1L1rbDm0KiKkD49JLmjwGjEajcJPpLHeQmUGKPIG/hGMKTXjMVphNWqExm8xoZ8bku/KlLdXNsTgw2CpoNDIP9LIhpaPAVcLMvwWELT6LMaB6eHSQjCgvKfxpEb9kCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAjPBCRPKktljvjFflh8209zTB/j/OelIuCnrYCsxpqkJuT5BqmKCqKo4YdFsX0PN2ttH1ldksK2ZABqkZuEnGrctInVvrEKpfmIJySyB4gqiIQzn+Hos2sYiRy1ICETLE1oGVm0FfuaWFgnk4OKQGeGWH7WTPY18XB8sBOGJES+w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
